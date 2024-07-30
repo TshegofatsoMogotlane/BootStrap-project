@@ -1,16 +1,11 @@
 /*
  * Globals
  */
-
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /*
  * Base structure
@@ -30,11 +25,10 @@ body {
  * Header
  */
  .banner-wrap {
-  background-image: url(assets/IMG-20220126-WA0040.jpg);
+  background-image: url(assets/profile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-bottom: 10px solid #222;
   position: relative;
   z-index: 1;
 }
@@ -43,10 +37,11 @@ body {
   height: 100%;
   width: 100%;
   background: black;
-  opacity: 60%;
+  opacity: 0.6;
   position: absolute;
   top: 0;
 }
+
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
